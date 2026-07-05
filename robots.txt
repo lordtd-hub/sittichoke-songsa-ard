@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lordtd-hub.github.io/sittichoke-songsa-ard/sitemap.xml

@@ -1,0 +1,14 @@
+# Deploy only the production static site.
+*
+
+!.gitignore
+!.nojekyll
+!index.html
+!styles.css
+!script.js
+!robots.txt
+!sitemap.xml
+!assets/
+
+assets/*
+!assets/sittichoke-songsa-ard-ai-hero-final.png
