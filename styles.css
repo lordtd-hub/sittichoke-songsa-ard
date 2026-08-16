@@ -639,11 +639,11 @@ svg {
   grid-area: auto;
 }
 
-.calculus-card {
+.competition-card {
   grid-area: auto;
 }
 
-.board-card {
+.calculus-card {
   grid-area: auto;
 }
 
@@ -659,45 +659,47 @@ svg {
   box-shadow: 0 10px 28px rgba(10, 20, 32, 0.05);
 }
 
+.competition-card .project-visual,
 .system-card .project-visual {
   min-height: 100%;
 }
 
+.competition-card .project-visual::after,
 .system-card .project-visual::after {
   display: none;
 }
 
+.competition-card .project-copy,
 .system-card .project-copy {
   min-width: 0;
 }
 
-.calculus-card,
-.board-card {
+.calculus-card {
   min-height: 0;
 }
 
+.competition-card .project-copy,
 .system-card .project-copy,
-.calculus-card .project-copy,
-.board-card .project-copy {
+.calculus-card .project-copy {
   padding: 18px 20px;
 }
 
+.competition-card .project-visual,
 .system-card .project-visual,
-.calculus-card .project-visual,
-.board-card .project-visual {
+.calculus-card .project-visual {
   min-height: 100%;
 }
 
+.competition-card .project-facts,
 .system-card .project-facts,
-.calculus-card .project-facts,
-.board-card .project-facts {
+.calculus-card .project-facts {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 12px;
 }
 
+.competition-card .project-facts div,
 .system-card .project-facts div,
-.calculus-card .project-facts div,
-.board-card .project-facts div {
+.calculus-card .project-facts div {
   padding-bottom: 0;
   border-bottom: 0;
 }
@@ -722,10 +724,13 @@ svg {
     linear-gradient(135deg, #102338 0%, #0c7476 100%);
 }
 
-.board-card .project-visual {
+.competition-card .project-visual {
   background:
-    radial-gradient(circle at 18% 76%, rgba(12, 116, 118, 0.48), transparent 30%),
-    linear-gradient(135deg, #332414 0%, #0c1420 100%);
+    linear-gradient(rgba(201, 154, 68, 0.13) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(201, 154, 68, 0.1) 1px, transparent 1px),
+    radial-gradient(circle at 20% 24%, rgba(178, 206, 81, 0.34), transparent 31%),
+    linear-gradient(135deg, #082f29 0%, #0c1420 100%);
+  background-size: 28px 28px, 28px 28px, auto, auto;
 }
 
 .project-visual span,
@@ -1821,9 +1826,9 @@ svg {
   .featured-work-grid {
     grid-template-columns: 1fr;
     grid-template-areas:
+      "competition"
       "system"
-      "calculus"
-      "board";
+      "calculus";
   }
 
   .featured-card {
@@ -2205,29 +2210,29 @@ svg {
     font-size: 1.38rem;
   }
 
+  .competition-card .project-copy,
   .system-card .project-copy,
-  .calculus-card .project-copy,
-  .board-card .project-copy {
+  .calculus-card .project-copy {
     padding: 16px;
   }
 
+  .competition-card .project-facts,
   .system-card .project-facts,
-  .calculus-card .project-facts,
-  .board-card .project-facts {
+  .calculus-card .project-facts {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 6px;
   }
 
+  .competition-card .project-facts div,
   .system-card .project-facts div,
-  .calculus-card .project-facts div,
-  .board-card .project-facts div {
+  .calculus-card .project-facts div {
     padding-bottom: 0;
     border-bottom: 0;
   }
 
+  .competition-card .project-facts div:nth-child(3),
   .system-card .project-facts div:nth-child(3),
-  .calculus-card .project-facts div:nth-child(3),
-  .board-card .project-facts div:nth-child(3) {
+  .calculus-card .project-facts div:nth-child(3) {
     display: none;
   }
 
