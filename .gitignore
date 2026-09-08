@@ -13,3 +13,6 @@
 
 assets/*
 !assets/sittichoke-songsa-ard-ai-hero-final.png
+
+!sitemap-pages.xml
+!assets/favicon.svg

@@ -11,13 +11,13 @@ const elevateHeader = () => {
 
 const copyByLang = {
   th: {
-    title: "สิทธิโชค ทรงสอาด | Sittichoke Songsa-ard",
+    title: "ผศ.ดร.สิทธิโชค ทรงสอาด | คณิตศาสตร์ มหาวิทยาลัยราชภัฏสุราษฎร์ธานี",
     description:
       "Academic Portfolio ของ ผศ.ดร.สิทธิโชค ทรงสอาด / Sittichoke Songsa-ard รวมงานวิจัย การสอน งานบริการวิชาการ อบรม AI ค่ายคณิตศาสตร์ และระบบสื่อการเรียนรู้ในสุราษฎร์ธานีและภาคใต้",
     toggleLabel: "สลับภาษาเป็นอังกฤษ"
   },
   en: {
-    title: "Sittichoke Songsa-ard | Academic Portfolio",
+    title: "Sittichoke Songsa-ard | Mathematics, Suratthani Rajabhat University",
     description:
       "Academic portfolio of Asst. Prof. Dr. Sittichoke Songsa-ard, featuring research, teaching, AI workshops, mathematics camps, academic service, and learning-system work in Surat Thani and Southern Thailand.",
     toggleLabel: "Switch language to Thai"
